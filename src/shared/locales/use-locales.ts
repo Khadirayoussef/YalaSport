@@ -3,9 +3,9 @@
 import { useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 
-import { localStorageGetItem } from '@/utils/storage-available';
+import { localStorageGetItem } from '@/src/utils/storage-available';
 
-import { useSettingsContext } from '@/shared/components/settings';
+import { useSettingsContext } from '@/src/shared/components/settings';
 
 import { allLangs, defaultLang } from './config-lang';
 
